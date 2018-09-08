@@ -1,0 +1,32 @@
+﻿<!doctype html>
+<html>
+<head>
+<title>Example10</title>
+<meta charset "UTF-8">
+<link rel="stylesheet" href="style2.css">
+<script src="java.js">
+</script>
+</head>
+<body>
+<div>
+<div id="MyDiv1">
+<p style="text-indent: 25px;">
+Создать группу радиокнопок, с помощью которой можно выбрать либо цвет фона документа желтый, либо увидеть диалоговое окно с приветствием, либо поменять цвет текста документа на синий, либо сменить, отображаемую на экране картинку. Создайте обработку любого события объекта links появлением строки «ПРИВЕТ,МИР» в одностроковом поле ввода информации некоторой формы данного документа.
+</p>
+</div>
+<div id="MyDiv2"> 
+<form>
+   <p><b>Управление с помощью кнопок.</b></p>
+    <p><input name="dzen" type="radio" value="nedzen" onclick="f1()"> Цвет фона желтый.</p>
+    <p><input name="dzen" type="radio" value="dzen" onclick="f2()"> Окно с приветствием.</p>
+    <p><input name="dzen" type="radio" value="pdzen" onclick="f3()"> Цвет текста синий.</p>
+    <p><input name="dzen" type="radio" value="pdzen" onclick="f4()"> Смена картинки.
+       <img src="pic1.png" alt="Picture" id="pic1" onclick="f4()"></p>
+
+
+ 
+</form> 
+</div>
+</div>
+</body>
+</html>
