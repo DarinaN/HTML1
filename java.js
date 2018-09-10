@@ -32,5 +32,5 @@ document.getElementById("pic1").src="pic2.png";
 
 function f5()
 {
-
+document.getElementById("area1").value="ПРИВЕТ,МИР!!!";
 }
