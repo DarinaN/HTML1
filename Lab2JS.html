@@ -16,15 +16,17 @@
 </div>
 <div id="MyDiv2"> 
 <form>
-   <p><b>Управление с помощью кнопок.</b></p>
-    <p><input name="dzen" type="radio" value="nedzen" onclick="f1()"> Цвет фона желтый.</p>
-    <p><input name="dzen" type="radio" value="dzen" onclick="f2()"> Окно с приветствием.</p>
-    <p><input name="dzen" type="radio" value="pdzen" onclick="f3()"> Цвет текста синий.</p>
-    <p><input name="dzen" type="radio" value="pdzen" onclick="f4()"> Смена картинки.
-       <img src="pic1.png" alt="Picture" id="pic1" onclick="f4()"></p>
-
-
- 
+     <p><b>Управление с помощью кнопок.</b></p>
+     <p><input name="dzen" type="radio" value="nedzen" onclick="f1()"> Цвет фона желтый.</p>
+     <p><input name="dzen" type="radio" value="dzen" onclick="f2()"> Окно с приветствием.</p>
+     <p><input name="dzen" type="radio" value="pdzen" onclick="f3()"> Цвет текста синий.</p>
+     <p><input name="dzen" type="radio" value="pdzen" onclick="f4()"> Смена картинки.
+    <img src="pic1.png" alt="Picture" id="pic1" onclick="f4()"></p>
+</form>
+<form action="handler.php">
+    <p><b>Введите текст:</b></p>
+    <p><textarea ROWS=5 COLS=50 id="area1"> Введите текст</textarea></p>
+    <p><input type="submit" onclick="f5()"></p>
 </form> 
 </div>
 </div>
