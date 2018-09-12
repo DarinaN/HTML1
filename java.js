@@ -12,7 +12,7 @@ return elements; }
 
 function f1()
 { 
-document.style.bgColor="yellow";
+document.bgColor="yellow";
 }
 
 function f2()
