@@ -12,12 +12,12 @@ return elements; }
 
 function f1()
 { 
-document.bgColor="yellow";
+document.getElementByld("div").style.backgroundColor="yellow";
 }
 
 function f2()
 { 
-alert("Здравствуйте !"); 
+alert("Здравствуйте!"); 
 }
 
 function f3()
