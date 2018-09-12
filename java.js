@@ -12,7 +12,7 @@ return elements; }
 
 function f1()
 { 
-document.getElementByld("div").style.backgroundColor="yellow";
+document.style.bgColor="yellow";
 }
 
 function f2()
