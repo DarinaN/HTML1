@@ -12,14 +12,15 @@ return elements; }
 
 
 function f1()
- {
+ {a=parseInt($('tt1').value);
+  b=parseInt($('tt2').value);
                       if (a != b) 
 		       {a = a + b;
 			b = a;
-		  	System.out.println(a + " " + b);}
+		  	$('tt3').value=a + " " + b;}
 		             
                         else {
 			a = b = 0;
-			System.out.println(a + " " + b);
+			$('tt3').value=a + " " + b;
 		}
 	}
