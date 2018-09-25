@@ -29,6 +29,6 @@ function f2()
                    for (N>1; A<B;i>=0)
                      {
                        $('tt5').value=X=A+i*H;
-                       $('tt5').value=F(X)=1-sin(A+i*H);
+                       F(X)=1-sin(A+i*H);
 }
 }
