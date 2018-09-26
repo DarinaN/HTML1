@@ -16,18 +16,18 @@ function f1()
  B=parseInt($('tt2').value);
  N=parseInt($('tt3').value);
                      for(N>1; A<B;) 
-		       {H=((B-A)/N);
+		       {H=((B-A)/N);}
 		  	$('tt4').value=H;
                                 
-		             }
-
+		             
+}
 
 function f2()
 {A=parseInt($('tt1').value);
  B=parseInt($('tt2').value);
  N=parseInt($('tt3').value);
                    for (N>1; A<B;i>=0)
-                     {
-                       $('tt5').value=F(X)=1-sin(A+i*H);
+                     {F(X)=1-sin(A+i*H);}
+                       $('tt5').value=F(X);
 }
-}
+
