@@ -26,7 +26,7 @@ function f2()
 {A=parseInt($('tt1').value);
  B=parseInt($('tt2').value);
  N=parseInt($('tt3').value);
-                   for (N>1; A<B;i>=0)
+                   for (N>1; A<B;i=1;i<=100;i++)
                      {X=A+i*H;
 	              F(X)=1-sin(A+i*H);}
                        $('tt5').value=F(X);
