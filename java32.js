@@ -12,23 +12,22 @@ return elements; }
 
 
 function f1()
-{A=parseInt($('tt1').value);
- B=parseInt($('tt2').value);
- N=parseInt($('tt3').value);
-                     for(N>1; A<B;) 
-		       {H=((B-A)/N);}
-		  	$('tt4').value=H;
-                                
-		             
+{A=parseFloat($('tt1').value);
+ B=parseFloat($('tt2').value);
+ N=parseFloat($('tt3').value);
+                     for(i=1;i<=N;i++) 
+		          {H=(B-A)/N;}
+		      $('tt4').value=H;
 }
 
 function f2()
-{A=parseInt($('tt1').value);
- B=parseInt($('tt2').value);
- N=parseInt($('tt3').value);
-                   for (i=1;i<=100;i++)
-                     {
-	              F(X)=1-sin(A+i*H);}
-                       $('tt5').value=F(X);
+{A=parseFloat($('tt1').value);
+ B=parseFloat($('tt2').value);
+ N=parseFloat($('tt3').value);
+ H=parseFloat($('tt4').value);
+                   for (i=0;i<=N;i++)
+                         {x = A + i * H;
+                          F = 1 - (Math.sin(x));}
+                    $('tt5').value=F;
 }
 
