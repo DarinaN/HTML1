@@ -16,9 +16,9 @@ function f1()
  B=parseInt($('tt2').value);
  N=parseInt($('tt3').value);
                      for(N>1; A<B;) 
-		       {
-		  	$('tt4').value=((B-A)/N);
-                                }
+		       {H=((B-A)/N);
+		  	$('tt4').value=H;
+                                
 		             }
 
 
