@@ -35,9 +35,9 @@ function f2()
                      for(i=A;i<=B;i++) 
 		       
                      { 
-                      for(j=0;j<i;j++)
-                     { $('tt6').value=i+" ";
-		  	}
+                      for(j=1;j=<i;j++)
+                      $('tt6').value=i;
+		  	
                         
 }
 }
