@@ -29,8 +29,8 @@ function f1()
 
 
 function f2()
-{A=parseFloat($('tx4').value);
- B=parseFloat($('tx5').value);
+{A=parseFloat($('tt4').value);
+ B=parseFloat($('tt5').value);
   result='';
 
 	for(i=A;i<=B;i++)
@@ -39,6 +39,6 @@ function f2()
              result=result+i;
 	}
 	
-         $('tx6').value=result;
+         $('tt6').value=result;
 
 }
