@@ -36,7 +36,7 @@ function f2()
 		       
                      { 
                       for(j=1;j=<i;j++)
-                      $('tt6').value=i;
+		      {$('tt6').value=i;}
 		  	
                         
 }
