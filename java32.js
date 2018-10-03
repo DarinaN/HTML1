@@ -28,6 +28,6 @@ function f2()
                    for (i=0;i<=N;i++)
                          {x = A + i * H;
                           F = 1 - (Math.sin(x));}
-                    $('tt5').value=F;
+                    $('tt5').value=('tt5').value+' '+F;
 }
 
