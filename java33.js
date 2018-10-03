@@ -20,10 +20,11 @@ function f1()
 		       {a=i;
                            for(j=2;j<=K;j++)
                        {a=a*i;
-                        Sum=Sum+a;}
+                        Sum=Sum+a;}}
+	
 		  	$('tt3').value=Sum;
                                 
-		             }
+		             
 
 }
 
