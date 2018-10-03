@@ -27,7 +27,7 @@ function f2()
  H=parseFloat($('tt4').value);
                    for (i=0;i<=N;i++)
                          {x = A + i * H;
-                          F = 1 - (Math.sin(x));}
-                    $('tt5').value=('tt5').value+' ; '+F;
+                          F = 1 - (Math.sin(x));
+                    $('tt5').value=$('tt5').value+' ; '+F;
 }
-
+}
