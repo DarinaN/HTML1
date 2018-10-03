@@ -29,15 +29,16 @@ function f1()
 
 
 function f2()
-{A=parseFloat($('tt4').value);
- B=parseFloat($('tt5').value);
- 
-                     for(i=A;i<=B;i++) 
-		       
-                     { 
-                      for(j=1;j<i;j++)
-		      $('tt6').value=i;
-		  	
-                        
-}
+{A=parseFloat($('tx4').value);
+ B=parseFloat($('tx5').value);
+  result='';
+
+	for(i=A;i<=B;i++)
+	{
+            for(j=1;j<=i;j++)
+             result=result+i;
+	}
+	
+         $('tx6').value=result;
+
 }
