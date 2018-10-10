@@ -14,7 +14,7 @@ return elements; }
 function f1()
 {N=parseFloat($('tt1').value);
                        K=1;
-                while(3 * K < N)
+                while(3 ^ K < N)
 		       K++;
                        K--;
 		 $('tt2').value=K;
