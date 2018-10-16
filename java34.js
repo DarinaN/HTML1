@@ -16,9 +16,7 @@ function f1()
                        K=1;
                 while(Math.pow(3,K) > N)
 		       K++;
-                       K--;
-                     
-		 $('tt2').value=K;
+                      $('tt2').value=K;
                              
 
  }
