@@ -15,7 +15,7 @@ function f1()
 {N=parseFloat($('tt1').value);
                        K=1;
                 while(Math.pow(3,K) > N)
-		       K++;
+		       K+=1;
                       $('tt2').value=K;
                              
 
