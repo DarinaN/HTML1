@@ -10,7 +10,7 @@ elements.push(element);
 } 
 return elements; }  
 
-
+var now = new Date('tt1');
 function f4 ()
 {
   now = new Date('tt1');
