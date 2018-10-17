@@ -13,7 +13,7 @@ return elements; }
 var setdate = new Date("May 09 1945 00:00:00");
 function f4 ()
 {
-  now = new Date();
+  var now = new Date();
   
   
   day = now.getTime() - setdate.getTime();
