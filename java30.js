@@ -13,7 +13,7 @@ return elements; }
 
 function f4 ()
 {
-  now = new Date();
+  now = new Date("input");
   setdate = new Date("May 09 1945 00:00:00")
   
   day = (setdate - now)/1000/60/60/24;
