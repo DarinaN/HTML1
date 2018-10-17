@@ -10,7 +10,7 @@ elements.push(element);
 } 
 return elements; }  
 
-var today=new Date();
+
 function f4 ()
 {
   now = new Date();
