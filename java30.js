@@ -16,9 +16,9 @@ function f4 ()
   now = new Date();
   
   
-  day = (now - setdate)/1000/60/60/24;
+  day = now.getTime() - setdate.getTime();
   day = Math.round(day);
-  $('tt2').value=day;
+  $('tt2')=parseInt(day/1000/60/60/24);
 }
   
 
