@@ -10,11 +10,14 @@ elements.push(element);
 } 
 return elements; }  
 
-vae today=new Date();
+var today=new Date();
 function f4 ()
 {
   var month=today.getMonth;
   var date=today.getDate;
   var year=today.getYear;
+  t=today.getTime()-day.get.Time();
+  $('tt2')=parseInt(t/1000/60/60/24);
+}
   
 
