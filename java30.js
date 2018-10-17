@@ -13,11 +13,12 @@ return elements; }
 var today=new Date();
 function f4 ()
 {
-  var month=today.getMonth;
-  var date=today.getDate;
-  var year=today.getYear;
-  t=today.getTime()-day.get.Time();
-  $('tt2')=parseInt(t/1000/60/60/24);
+  now = new Date();
+  setdate = new Date("May 09 1945 00:00:00")
+  
+  day = (setdate - now)/1000/60/60/24;
+    day = Math.round(day);
+  $('tt2')=day;
 }
   
 
