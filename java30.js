@@ -18,7 +18,7 @@ function f4 ()
   
   day = (setdate - now)/1000/60/60/24;
     day = Math.round(day);
-  $('tt2')=day;
+  $('tt2').value=day;
 }
   
 
