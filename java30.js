@@ -10,4 +10,11 @@ elements.push(element);
 } 
 return elements; }  
 
+vae today=new Date();
+function f4 ()
+{
+  var month=today.getMonth;
+  var date=today.getDate;
+  var year=today.getYear;
+  
 
