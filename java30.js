@@ -10,15 +10,32 @@ elements.push(element);
 } 
 return elements; }  
 
-var setdate = new Date("May 09 1945 00:00:00");
-function f4 ()
-{
-  var now = new Date();
-  
-  
-  day = now.getTime() - setdate.getTime();
-  day = Math.round(day);
-  $('tt2').value=parseInt(day/1000/60/60/24);
+function f4(){
+        setInterval(function(){
+           var lnow = new Date("05 09 1945");   
+                lyear = lnow.getFullYear(); 
+                lmonth1  = lnow.getMonth() ; 
+                lmonth = (lmonth1+1); 
+                ldate =   lnow.getDate() ;  
+                
+ 
+ 
+             var now = new Date();   
+                year = now.getFullYear(); 
+                month1  = now.getMonth() ; 
+                month = (month1+1); 
+                date =   now.getDate() ;  
+                   
+ 
+               dnyear = (year - lyear);
+                dnmonth = ( month - lmonth); 
+                dndate = (date - ldate);   
+                
+                
+
+               /*allow = Math.round(-allow);*/
+               $('tt2').value= dnyear + " Лет "  + dnmonth + " Месяц " + dndate + " Дней ";
+}, 1000);
 }
-  
+            
 
