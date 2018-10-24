@@ -12,7 +12,7 @@ return elements; }
 
 function f4(){
         setInterval(function(){
-           var lnow = new Date("04 09 1945");   
+           var lnow = new Date("05 09 1945");   
                 lyear = lnow.getFullYear(); 
                 lmonth1  = lnow.getMonth() ; 
                 lmonth = (lmonth1+1); 
