@@ -13,15 +13,5 @@ return elements; }
 
 function f1()
     {
-        pravilno = false;
-        if (document.getElementById('In').value == "Львов")
-            { pravilno = true; } else if (document.getElementById('In').value == "Харьков")
-                { pravilno = true; } else if (document.getElementById('In').value == "Киев")
-                   { pravilno = true; } else if (document.getElementById('In').value == "Одесса")
-                       { pravilno = true; } else if (document.getElementById('In').value == "Винница")
-                           { pravilno = true; } else if (document.getElementById('In').value == "Николаев")
-                              { pravilno = true; } else 
-                        { pravilno = false; };
-        if (pravilno == true) { alert("Okay"); } else { alert("Fail"); };
-        return pravilno;
+       
     }
