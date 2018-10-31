@@ -32,7 +32,6 @@ function f3(){
 
 
 function f4(){
-        var x=parseInt($('tt1').value);
 var pv=new Date (5, 22, 1941)
 var kv=new Date (4, 9, 1945)
   if (date1.getTime ()<=pv.getTime())
@@ -44,7 +43,7 @@ var kv=new Date (4, 9, 1945)
   else (date1.getTime()>=kv.getTime())
         {x=date1.getTime()-kv.getTime();
                 }
-         $('tt2').value=x(1000/60/60/24)  ;
+         $('tt2').value= x;
 }
             
 
