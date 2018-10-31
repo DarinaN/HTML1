@@ -35,15 +35,15 @@ function f4(){
 var pv=new Date (22, 5, 1941)
 var kv=new Date (9, 4, 1945)
   if (date1.getTime ()<=pv.getTime())
-          {x=pv.getTime()-date1.getTime();
+          {x=pv.getTime()-date1.getTime();tttt="До початку війни залишилося";
            }
-  else if (date1.getTime()>pv.getTime() && date1.getTime()<kv.getTime())
-          {x=kv.getTime()-date1.getTime();
+  else if ((date1.getTime()>pv.getTime()) && (date1.getTime()<kv.getTime()))
+          {x=kv.getTime()-date1.getTime();tttt="До перемоги у війні залишилося";
                   }
-  else (date1.getTime()>=kv.getTime())
-        {x=date1.getTime()-kv.getTime();
+  else 
+        {x=date1.getTime()-kv.getTime(); tttt="Минуло після перемоги";
                 }
-         $('tt2').value= parseInt(x/1000/60/60/24);
+         $('tt2').value= $('tt2').value+tttt+parseInt(x/1000/60/60/24);
 }
             
 
