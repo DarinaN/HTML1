@@ -10,6 +10,27 @@ elements.push(element);
 } 
 return elements; }  
 
+var date1=new Date();
+function f1(){
+        var x=parseInt($('tt1').value);
+        date1.setDate(x);
+         $('tt2').value=date1;
+        
+}
+function f2(){
+        var x=parseInt($('tt1').value);
+        date1.setMonth(x);
+         $('tt2').value=date1;
+}
+
+function f2(){
+        var x=parseInt($('tt1').value);
+        date1.setFullYear(x);
+         $('tt2').value=date1;
+}
+
+
+
 function f4(){
 a=parseFloat($('tt1').value);
         setInterval(function(){
