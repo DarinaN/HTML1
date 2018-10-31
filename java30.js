@@ -41,7 +41,7 @@ var kv=new Date (4, 9, 1945)
           {x=kv.getTime()-date1.getTime();
                   }
   else (date1.getTime()>=kv.getTime())
-        {x=(date1.getTime()-kv.getTime())(1000*60*60*24);
+        {x=date1.getTime()-kv.getTime();
                 }
          $('tt2').value=x;
 }
