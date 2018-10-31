@@ -23,7 +23,7 @@ function f2(){
          $('tt2').value=date1;
 }
 
-function f2(){
+function f3(){
         var x=parseInt($('tt1').value);
         date1.setFullYear(x);
          $('tt2').value=date1;
