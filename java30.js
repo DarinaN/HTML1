@@ -32,16 +32,18 @@ function f3(){
 
 
 function f4(){
-a=parseFloat($('tt1').value);
-        setInterval(function(){
-            var lnow = new Date("05 09 1945");
-                lyear = lnow.getFullYear(); 
-               
-                dnyear = (a - lyear); 
-              
-                
-            $('tt2').value= dnyear + " Лет "  ;
-}, 1000);
+var pv=new Date (22 5 1941)
+var kv=new Date (9 4 1945)
+  if (date1.getTime ()<=pv.getTime())
+          {x=pv.getTime()-date1.getTime();
+           }
+  else if (date1.getTime()>pv.getTime() && date1.getTime()<kv.getTime())
+          {x=
+                  }
+  else (date1.getTime()>=kv.getTime())
+        {x=date1.getTime()-kv.getTime()
+                }
+         $('tt2').value=x;
 }
             
 
