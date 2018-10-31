@@ -32,8 +32,8 @@ function f3(){
 
 
 function f4(){
-var pv=new Date (22 5 1941)
-var kv=new Date (9 4 1945)
+var pv=new Date (22, 5, 1941)
+var kv=new Date (9, 4, 1945)
   if (date1.getTime ()<=pv.getTime())
           {x=pv.getTime()-date1.getTime();
            }
