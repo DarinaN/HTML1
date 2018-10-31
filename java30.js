@@ -38,10 +38,10 @@ var kv=new Date (4, 9, 1945)
           {x=pv.getTime()-date1.getTime();
            }
   else if (date1.getTime()>pv.getTime() && date1.getTime()<kv.getTime())
-          {x=
+          {x=kv.getTime()-date1.getTime();
                   }
   else (date1.getTime()>=kv.getTime())
-        {x=date1.getTime()-kv.getTime()
+        {x=date1.getTime()-kv.getTime();
                 }
          $('tt2').value=x;
 }
