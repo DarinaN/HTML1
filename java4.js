@@ -13,7 +13,7 @@ return elements; }
 
 function f1()
     {
-       var re = /^ [a-zA-Z][a-zA-Z0-9-_\.]{1,20} $/i;
+       var re = /^[а-яА-Я][а-яА-Я0-9-_\.]{1,20}$/i;
     var myMail = document.getElementById('In').value;
     var valid = re.test(myMail);
     if (valid) output = 'Название города введено правильно!';
