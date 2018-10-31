@@ -43,7 +43,7 @@ var kv=new Date (4, 9, 1945)
   else (date1.getTime()>=kv.getTime())
         {x=date1.getTime()-kv.getTime();
                 }
-         $('tt2').value= x;
+         $('tt2').value= parseInt(x/1000/60/60/24);
 }
             
 
