@@ -11,13 +11,18 @@ elements.push(element);
 return elements; }  
 
 
-function f1()
-    {
-       var re = /^[а-яА-Я][а-яА-Я0-9-_\.]{1,20}$/i;
-    var myMail = document.getElementById('In').value;
-    var valid = re.test(myMail);
-    if (valid) output = 'Название города введено правильно!';
-    else output = 'Название города введено неправильно!';
-    document.getElementById('message').innerHTML = output;
-    return valid;
-    }
+function f1(x){
+var city="абвгдеёжзийклмнопрстуфхцчшщъыьэюя1234567890_-";
+lb1="Okay";
+var mass1 = new String(x);
+         if(mass1.length==2)
+      {for(i=0;i<x.length;i++)
+         {if(city.indexOf(x.charAt(i))<0)
+           lb1="Fail";
+               }
+                 }
+        else
+        lb1="Fail";
+          return lb1;
+ }
+
