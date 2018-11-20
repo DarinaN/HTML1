@@ -11,18 +11,27 @@ elements.push(element);
 return elements; }  
 
 
-function f1(x){
-var city="абвгдеёжзийклмнопрстуфхцчшщъыьэюя1234567890_-";
-lb1="Okay";
-var mass1 = new String(x);
-         if(mass1.length==2)
-      {for(i=0;i<x.length;i++)
-         {if(city.indexOf(x.charAt(i))<0)
-           lb1="Fail";
-               }
-                 }
-        else
-        lb1="Fail";
-          return lb1;
- }
+function f1(city) {
+        if (!city) {
+           alert('Fail');
+            return false;
+    }
+    var cityA = city.split(' ');
+         if (cityA.length !== 1) {
+             alert('Fail');
+                return false;
+             
+    }
+            for (var i = 0; i < 1; i++) {
+               if (/[^а-яё][^0-9]+/i.test(cityA[i])) {
+                 alert('Fail');
+                  return false;
+                 
+        }
+    }
+                  alert('Okay');
+                   return true;
+                   
+}
 
+//[^-А-ЯA-Z\x27а-яa-z]
