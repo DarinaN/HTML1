@@ -17,7 +17,7 @@ x1.style.top=(parseInt(x1.style.top)+100)+'px';
 r1=100;
 str1='rgb('+r1+', '+b6+')';
 x1.style.backgroundColor=str1;
-$('tt2').value=t;
+$('tt2').value=x1;
 }
 function k()
 {t=setInterval('f()',1000);
