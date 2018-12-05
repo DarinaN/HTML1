@@ -43,7 +43,7 @@ var kv=new Date (9, 4, 1945)
   else 
         {x=date1.getTime()-kv.getTime(); tttt="Минуло після перемоги";
                 }
-         $('tt2').value= $('tt2').value+tttt+parseInt(x/1000/60/60/24);
+         $('tt2').value= $('tt2').value+tttt+parseInt(x/1000/60/60/24/365);
 }
             
 
